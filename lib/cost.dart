@@ -7,7 +7,7 @@ class Cost extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.backgrounColors,
+      backgroundColor: AppColors.backgroundColor,
 
       body: Stack(
         children: [
