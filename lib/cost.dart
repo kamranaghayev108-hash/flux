@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flux/app.dart';
 
-class Cost extends StatefulWidget {
+class Cost extends StatelessWidget {
   const Cost({super.key});
 
   @override
-  State<Cost> createState() => _CostState();
-}
-
-class _CostState extends State<Cost> {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFFFBF9),
+      backgroundColor: AppColors.backgroundColor,
 
       body: Stack(
         children: [
